@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BR Architects</title>
-    <!-- Bootstrap -->
+    <!-- Bootstrap v5.0 -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>BR Architects</title>
   </head>
   <body>
     <header>
@@ -29,11 +31,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" aria-current="page" href="#">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
@@ -44,197 +47,197 @@
     </header>
 
     <main>
-      <div class="container">
-        <div class="card">
-          <img src="Assets/images/architect.jpg" class="card-img" />
-          <div
-            class="card-img-overlay d-flex justify-content-center align-items-center">
-            <p class="card-title text-light fs-1">BR Architects</p>
-          </div>
+
+        <div id="hero-section" class="d-flex align-items-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-white text-center "><span id="br-text" class="d-inline-block bg-black">BR</span> <span class="a-text">Architects</span></h1>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="container">
-        <h3 class="mt-4">Projects</h3>
-
-        <div class="row mb-2">
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house5.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Summer House</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house2.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Brick House</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house3.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Renovated</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house4.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Barn House</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
+<div id="projects-section" class="py-5">
+    <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house2.jpg" />
+            <div class="col">
+                <h3>Projects</h3>
+                <hr>
 
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Summer House</p>
-              </div>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house5.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Brick House</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house4.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Renovated</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card">
-              <img src="Assets/images/house3.jpg" />
-
-              <div class="card-img-overlay">
-                <p class="card-title text-light bg-black fs-6">Barn House</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <div class="container">
-        <h3 class="mt-4">About</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-          consequatur non voluptates, quia maxime molestiae beatae dolor iure
-          sit itaque nemo architecto ipsa! Error impedit nostrum fugit repellat
-          quaerat? Eveniet. Quas suscipit accusamus, laborum dignissimos,
-          quibusdam impedit, ducimus esse harum deleniti est vero consectetur
-          non illum odit explicabo laboriosam sequi?
-        </p>
         <div class="row">
-          <div class="col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="Assets/images/team2.jpg" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">John Doe</h5>
-                <p>Ceo & Founder</p>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-secondary px-4">Contact</a>
-              </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Summer House</span>
+                    <img src="Assets/images/house5.jpg" alt="House">
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="Assets/images/team1.jpg" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Jane Doe</h5>
-                <p>Architect</p>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-secondary px-4">Contact</a>
-              </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Black House</span>
+                    <img src="Assets/images/house2.jpg" alt="House">
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="Assets/images/team3.jpg" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Mike Ross</h5>
-                <p>Architect</p>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-secondary px-4">Contact</a>
-              </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Renovated</span>
+                    <img src="Assets/images/house3.jpg" alt="House">
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="Assets/images/team4.jpg" class="card-img-top" />
-              <div class="card-body">
-                <h5 class="card-title">Dan Star</h5>
-                <p>Architect</p>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-secondary px-4">Contact</a>
-              </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Barn House</span>
+                    <img src="Assets/images/house4.jpg" alt="House">
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-
-      <div class="container">
-        <h3 class="mt-4">Contact</h3>
-        <p>Lets get in touch and talk about your next project.</p>
-
-        <input class="form-control" type="text" placeholder="Name" aria-label="default input example"> <br>
-        <input class="form-control" type="text" placeholder="Email" aria-label="default input example"> <br>
-        <input class="form-control" type="text" placeholder="Subject" aria-label="default input example"> <br>
-        <input class="form-control" type="text" placeholder="Contact" aria-label="default input example"> <br>
         
-        <button type="button" class="btn btn-secondary mb-4 bg-black px-4 btn-sm">Small button</button>
-        
-      </div>
 
-      <div class="container">
-        <div class="card">
-            <img class="card-img img-fluid mb-1" src="Assets/images/map.jpg">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Summer House</span>
+                    <img src="Assets/images/house2.jpg" alt="House">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Black House</span>
+                    <img src="Assets/images/house5.jpg" alt="House">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Renovated</span>
+                    <img src="Assets/images/house4.jpg" alt="House">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    <span class="bg-black text-white position-absolute py-2 px-3">Barn House</span>
+                    <img src="Assets/images/house3.jpg" alt="House">
+                </div>
+            </div>
         </div>
-      </div>
+        
+<div id="about-section" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>About</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam perferendis impedit laudantium ex quasi praesentium architecto. Libero ab tempore iusto laborum, minus autem modi! Nulla a voluptates mollitia officiis.
+                Harum delectus, suscipit deleniti, sapiente fugit doloribus laboriosam voluptas aspernatur maiores, rem porro dolor. Autem, sit sapiente itaque repellat nemo ducimus dignissimos, iure, alias illum corrupti dolor esse suscipit vitae!</p>
+
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    
+                    <img src="Assets/images/team2.jpg" alt="Team Member">
+                    <h4 class="mb-0 mt-3">John Doe</h4>
+                    <p class="text-secondary my-3">CEO &amp; Founder</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    <button class="btn btn-light">Conatct</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    
+                    <img src="Assets/images/team1.jpg" alt="Team Member">
+                    <h4 class="mb-0 mt-3">Jane Doe</h4>
+                    <p class="text-secondary my-3">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    <button class="btn btn-light">Conatct</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    
+                    <img src="Assets/images/team3.jpg" alt="Team Member">
+                    <h4 class="mb-0 mt-3">Mike Ross</h4>
+                    <p class="text-secondary my-3">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    <button class="btn btn-light">Conatct</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card border-0">
+                    
+                    <img src="Assets/images/team4.jpg" alt="Team Member">
+                    <h4 class="mb-0 mt-3">Dan Star</h4>
+                    <p class="text-secondary my-3">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    <button class="btn btn-light">Conatct</button>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+        
+        <div id="contact-section" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Contact</h3>
+                        <hr>
+                        <p>Lets get in touch and talk about your next project.</p>
+
+
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <form>
+                        <div class="col-12 mb-3"> 
+                            <input type="text" name="name" class="form-control" placeholder="Name">
+                          </div>
+                    <div class="col-12 mb-3"> 
+                            <input type="email" name="email" class="form-control" placeholder="Email">
+                          </div>
+                    <div class="col-12 mb-3"> 
+                            <input type="subject" name="subject" class="form-control" placeholder="Subject">
+                          </div>
+                    <div class="col-12 mb-3"> 
+                            <input type="comment" name="comment" class="form-control" placeholder="Comment">
+                          </div>
+                          <div class="lol-12">
+                            <button class="btn btn-dark">Send Message</button>
+                          </div>
+                    </form>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="row mt-4 mb-0">
+                        <div class="col">
+                            <img class="img-fluid" src="Assets/images/map.jpg" alt="Map">
+                        </div>
+                    </div>
+                </div>
+
     </main>
 
-    
-        <footer class="py-2 text-center text-light bg-black">
-            <p>Powered by <u>w3.css</u></a></p>
-            <p class="mb-0">
-              
-            </p>
-          </footer>
-    
+    <footer class="bg-black">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-white text-center ms-4">Powered by <u>w3.css</u></p>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- Bootstrap v5.0 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
   </body>
 </html>
